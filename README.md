@@ -25,3 +25,9 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+## Arquitetch
+https://medium.com/swlh/how-to-make-angular-project-layout-which-requires-many-screens-including-header-footer-and-navbar-3b73cfe69ce7
+
+## menus
