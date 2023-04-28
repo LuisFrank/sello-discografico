@@ -1,6 +1,6 @@
 <main>
   
-    <div id="myCarousel" class="carousel slide pointer-event" data-bs-ride="carousel">
+    <div id="myCarousel" class="carousel slide pointer-event mb-0" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" aria-label="Slide 1"  class="active" aria-current="true"></button>
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -53,53 +53,111 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+
+    
+    <!-- <div class="b-example-divider"></div> -->
   
   
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
   
-    <div class="container marketing">
-  
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-  
-          <h2>XX9</h2>
-          <h6>ARTISTA MUSICAL EXPERIMENTAL</h6>
-          <h6>PRODUCTOR MUSICAL</h6>
-          <h6>DIRECCIÓN GENERAL</h6>
-          <!-- <p><a class="btn btn-secondary" href="#">View details »</a></p> -->
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-  
-          <h2>FELIPE</h2>
-          <h6>MARKETING</h6>
-          <h6>PRODUCTOR MUSICAL</h6>
-          <h6>INGENIERO DE GRABACION Y MESCLA</h6>
-          <!-- <p><a class="btn btn-secondary" href="#">View details »</a></p> -->
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-  
-          <h2>CUTUE</h2>
-          <h6>ARTISTA PLASTICO</h6>
-          <h6>DIRECCION DE ARTE</h6>
-          <h6>DISEÑO GRAFICO - AUDIOVISUALES</h6>
-          <!-- <p><a class="btn btn-secondary" href="#">View details »</a></p> -->
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-  
-  
+    <!-- <div class="container marketing"> -->
+    <div class="container px-4 py-5" id="custom-cards">
+      <h2 class="pb-2 border-bottom">Equipo</h2>
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" 
+                style="background-image: url('unsplash-photo-1.jpg');">
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                      <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">XX9</h2>
+                        <ul class="d-flex list-unstyled mt-auto">
+                          <!-- <li class="me-auto">
+                            <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                          </li> -->
+                          <li class="d-flex align-items-center text-start">
+                            <!-- <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg> -->
+                            <p>Artista Musical Experimental</p>
+                          </li>
+                          <li class="d-flex align-items-center text-center">
+                            <!-- <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg> -->
+                            <p>Productor Musical</p>
+                          </li>
+                          <li class="d-flex align-items-center text-end">
+                            <!-- <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg> -->
+                            <p>Dirección General</p>
+                          </li>
+                          <!-- <li class="d-flex align-items-center">
+                            <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                            <small>  DIRECCIÓN GENERAL</small>
+                          </li> -->
+
+
+                        
+                        </ul>
+                    </div>
+                </div>
+          </div>
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">FELIPE</h2>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <!-- <li class="me-auto">
+                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                  </li> -->
+                  <li class="d-flex align-items-center text-start">                    
+                    <p> Ingeniero de Grabación y Mescla</p>
+                  </li>   
+                  <li class="d-flex align-items-center text-end">                    
+                    <p>Marketing</p>
+                  </li>          
+                  <li class="d-flex align-items-center text-end ">   
+                    <p>Productor Musical</p>                             
+                  </li>       
+                  
+                              
+                </ul>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">CUTUE</h2>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <!-- <li class="me-auto">
+                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                  </li> -->
+                  <li class="d-flex align-items-center text-start ">
+
+                    <p>Artista Plástico</p>
+                  </li>
+                  <li class="d-flex align-items-center text-center ">
+                    
+                    <p>Dirección de Arte</p>
+                  </li>
+                  <li class="d-flex align-items-center text-end">
+                   
+                    <p>Diseño Gráfico y Audiovisuales</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      </div>
+     
+    </div>
       <!-- START THE FEATURETTES -->
+      
+      <div class="b-example-divider"></div>
+      <!-- <hr class="featurette-divider"> -->
   
-      <hr class="featurette-divider">
-  
-      <div class="row featurette">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-md-7">
-          <h2 class="featurette-heading">PRODUCCION MUSICAL.
+          <h2 class="display-5 fw-bold">PRODUCCION MUSICAL
              <!-- <span class="text-muted">It’ll blow your mind.</span> -->
             </h2>
             <br>
@@ -125,59 +183,66 @@
   
         </div>
       </div>
+      </div>
   
-      <hr class="featurette-divider">
+      <div class="b-example-divider"></div>
   
-      <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">PRODUCCION MUSICAL.
-             <!-- <span class="text-muted">See for yourself.</span> -->
+      <!-- <div class="container"> -->
+        <div class="row px-4 pt-5 my-5 text-center w-100">
+          <h2 class="display-4 fw-bold">PRODUCCION MUSICAL </h2>
+          <div class="col-lg-6  mx-auto">
+            <p class="lead mb-4">
+              Crear una estrategia de comunicacion para el artista definira su inicio en las redes sociales asi como en la industria musical
+            </p>      
+            <p class="lead">
+              Por ello, se necesita conocer la mision , vision , valores , fortalezas y debilidades del proyecto musical y del artista, que definira la creacion de contenido que seran propios y unicos del artista.
+            </p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+              <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Primary button</button>
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
+            </div>
+          </div>
+        <div class="verflow-hidden" style="max-height: 30vh;">
+          <div class="container px-5">
+            <svg class="img-fluid border rounded-3 shadow-lg mb-4" width="700" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+          </div>
+        </div>
+        </div>
+      <!-- </div> -->
+      <div class="b-example-divider"></div>
+      <!-- <hr class="featurette-divider"> -->
+  
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <svg class="d-block mx-lg-auto img-fluid" width="700" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+          </div>
+          <div class="col-lg-6">
+            <h2 class="display-5 fw-bold lh-1 mb-3">MARKETING 
+              <!-- <span class="text-muted">Checkmate.</span> -->
             </h2>
-            <br>
-          <p class="lead">
-            Crear una estrategia de comunicacion para el artista definira su inicio en las redes sociales asi como en la industria musical
-          </p>         
-         
-          <p class="lead">
-            Por ello, se necesita conocer la mision , vision , valores , fortalezas y debilidades del proyecto musical y del artista, que definira la creacion de contenido que seran propios y unicos del artista.
-          </p>
-        </div>
-        <div class="col-md-5 order-md-1">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-  
-        </div>
-      </div>
-  
-      <hr class="featurette-divider">
-  
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">MARKETING 
-            <!-- <span class="text-muted">Checkmate.</span> -->
-          </h2>
-          <br>
-          <p class="lead">
-            La direccion de arte es la que contempla la misitica del artista y la vuelve un campo visual donde los elementos graficos reflejaran la energia y la potencia del artista musical .
-          </p> 
-          <p class="lead">
-            Mediante la fotografia , diseño grafico , visualizer y videoclip se mostraran los colores y la identidad visual unica del artista, asi como de la composicion y concepto.
-            
-          </p>
-          <p class="lead">
-            Esta identidad, es lo que diferenciara al artista y complementara el producto musical, para volverlo un producto completo y preparado para ingresar a la industria musical.
-          </p>
-        </div>
-        <div class="col-md-5">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-  
+            <p class="lead">
+              La direccion de arte es la que contempla la misitica del artista y la vuelve un campo visual donde los elementos graficos reflejaran la energia y la potencia del artista musical .
+            </p> 
+            <p class="lead">
+              Mediante la fotografia , diseño grafico , visualizer y videoclip se mostraran los colores y la identidad visual unica del artista, asi como de la composicion y concepto.
+              
+            </p>
+            <p class="lead">
+              Esta identidad, es lo que diferenciara al artista y complementara el producto musical, para volverlo un producto completo y preparado para ingresar a la industria musical.
+            </p>
+          </div>
+        
         </div>
       </div>
   
-      <hr class="featurette-divider">
-  
+      <!-- <hr class="featurette-divider"> -->
+      
+      <div class="b-example-divider"></div>
       <!-- /END THE FEATURETTES -->
   
-    </div><!-- /.container -->
+    <!-- </div> -->
+    <!-- /.container -->
   
   
    

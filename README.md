@@ -35,3 +35,5 @@ Nombre repositorio sello-discografico
 ng deploy --base-href=/sello-discografico/
 
 Luego en el mismo github pages 
+
+http://preview.themeforest.net/item/music-a-fresh-band-dj-music-studio-template/full_screen_preview/20490388?irgwc=1&clickid=R29Xm4Xl9xyNUFoWXPVlZ0xBUkAV1ByP-XY1Vk0&iradid=275988&irpid=321119&iradtype=ONLINE_TRACKING_LINK&irmptype=mediapartner&mp_value1=
