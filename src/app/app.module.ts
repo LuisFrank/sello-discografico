@@ -9,6 +9,8 @@ import { LayoutComponent } from './components/layout/layout.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/screens/home/home.component';
 import { ArtistsComponent } from './components/screens/artists/artists.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+// import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { ArtistsComponent } from './components/screens/artists/artists.component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule,
+    // FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

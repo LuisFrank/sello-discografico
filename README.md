@@ -33,3 +33,5 @@ https://medium.com/swlh/how-to-make-angular-project-layout-which-requires-many-s
 ## menus
 Nombre repositorio sello-discografico
 ng deploy --base-href=/sello-discografico/
+
+Luego en el mismo github pages 
