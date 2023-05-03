@@ -31,6 +31,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 https://medium.com/swlh/how-to-make-angular-project-layout-which-requires-many-screens-including-header-footer-and-navbar-3b73cfe69ce7
 
 ## menus
+
+install angular-cli-ghpages
+
 Nombre repositorio sello-discografico
 ng deploy --base-href=/sello-discografico/
 
