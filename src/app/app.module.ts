@@ -10,6 +10,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/screens/home/home.component';
 import { ArtistsComponent } from './components/screens/artists/artists.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ArtistComponent } from './components/screens/artists/artist/artist.component';
+import { ArtistDetailComponent } from './components/screens/artists/artist-detail/artist-detail.component';
 // import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
@@ -20,7 +22,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     LayoutComponent,
     NavbarComponent,
     HomeComponent,
-    ArtistsComponent
+    ArtistsComponent,
+    ArtistComponent,
+    ArtistDetailComponent
   ],
   imports: [
     BrowserModule,

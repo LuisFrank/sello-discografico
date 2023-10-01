@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ArtistsComponent implements OnInit {
 
+  iteraciones: any[] = new Array(9);
+
   constructor() { }
 
   ngOnInit(): void {
   }
+
+
 
 }

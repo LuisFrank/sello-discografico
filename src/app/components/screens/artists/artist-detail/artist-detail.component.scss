@@ -1,0 +1,31 @@
+
+.custom-row-height {
+    height: 100vh;
+     width: 100%!important;
+    // padding-bottom: ;
+}
+// .site-hero{
+
+//     max-width: 100%;
+//     min-height: 770px;
+// }
+
+
+// .site-hero, .site-hero > .row {
+//     height: 100vh;
+//     max-width: 100%;
+//     min-height: 770px;
+// }
+
+.fullscreen-image {
+    // max-width: 50%;
+    // width: 90%;
+    height: 100vh; /* 100% del alto de la ventana (viewport height) */
+    object-fit: cover; /* Escalar la imagen para cubrir completamente el contenedor */
+}
+
+
+.ng-fa-icon.hover-hightlight:hover {
+    color: red;
+    transition: color 1.3s;
+  }

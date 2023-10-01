@@ -1,0 +1,70 @@
+
+
+.card {
+    border: none !important;
+  }
+
+.card-body{
+    text-transform: uppercase;
+    padding-left: 0 !important;
+    // padding: 1rem 1rem 0rem;
+}
+
+
+
+  @keyframes slideRight {
+    0% {
+        transform: translateX(100%);
+    }
+    50% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+        
+    }
+  }
+
+  .conditional {
+    cursor: pointer;
+  }
+
+  // .artist-name {
+  //   display: none!important;
+  // }
+
+  .conditional:hover  .slideRight {
+    white-space: nowrap;
+    // overflow: hidden;
+    display: flex !important;
+    animation: slideRight 20s linear infinite;
+  }
+
+  // .conditional + .artist-name {
+  //   white-space: nowrap;
+  //   // overflow: hidden;
+  //   display: none;
+  //   animation: slideRight 20s linear infinite;
+  // }
+
+
+  .slideRight {
+    white-space: nowrap;
+    // overflow: hidden;
+    display: none!important;
+    animation: slideRight 20s linear infinite;
+    // animation-delay: -2.5s;
+  }
+  
+  /* Aplicar ambas animaciones al texto */
+.image-name {
+    // white-space: nowrap;
+    // overflow: hidden;
+    // display: inline-block;
+    // animation: marquee 10s linear infinite;
+    display: inline-block;
+    font-size: 5rem ;
+  
+  }
+
+  

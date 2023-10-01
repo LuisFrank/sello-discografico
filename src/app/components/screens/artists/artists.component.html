@@ -1,88 +1,9 @@
 <div class="container">
   <h1 class="text-center display-4 pt-5 pb-5" >ARTISTAS</h1>
   <div class="row  g-4">
-    <div class="col-md-4">
-        <div class="card">   
-          <img src="assets/img/artista3.jpg" class="card-img-top" alt="Nombre del artista">
-          <div class="card-body">
-            <h5 class="card-title px-0">Nombre del artista1</h5>
-            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-          </div>
-        </div>
+    <div class="col-md-4" *ngFor="let item of iteraciones">
+          <!-- Repite este bloque para cada artista -->
+      <app-artist></app-artist>
     </div>
-    <div class="col-md-4">
-        <div class="card">   
-          <img src="assets/img/artista3.jpg" class="card-img-top" alt="Nombre del artista">
-          <div class="card-body">
-            <h5 class="card-title px-0">Nombre del artista1</h5>
-            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-          </div>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="card">   
-          <img src="assets/img/artista3.jpg" class="card-img-top" alt="Nombre del artista">
-          <div class="card-body">
-            <h5 class="card-title">Nombre del artista1</h5>
-            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-          </div>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="card">   
-          <img src="assets/img/artista3.jpg" class="card-img-top" alt="Nombre del artista">
-          <div class="card-body">
-            <h5 class="card-title px-0">Nombre del artista1</h5>
-            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-          </div>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="card">   
-          <img src="assets/img/artista3.jpg" class="card-img-top" alt="Nombre del artista">
-          <div class="card-body">
-            <h5 class="card-title px-0">Nombre del artista1</h5>
-            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-          </div>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="card">   
-          <img src="assets/img/artista3.jpg" class="card-img-top" alt="Nombre del artista">
-          <div class="card-body">
-            <h5 class="card-title px-0">Nombre del artista1</h5>
-            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-          </div>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="card">   
-          <img src="assets/img/artista3.jpg" class="card-img-top" alt="Nombre del artista">
-          <div class="card-body">
-            <h5 class="card-title px-0">Nombre del artista1</h5>
-            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-          </div>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="card">   
-          <img src="assets/img/artista3.jpg" class="card-img-top" alt="Nombre del artista">
-          <div class="card-body">
-            <h5 class="card-title px-0">Nombre del artista1</h5>
-            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-          </div>
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="card">   
-          <img src="assets/img/artista3.jpg" class="card-img-top" alt="Nombre del artista">
-          <div class="card-body">
-            <h5 class="card-title px-0">Nombre del artista1</h5>
-            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
-          </div>
-        </div>
-    </div>
-      
-    <!-- Repite este bloque para cada artista -->
   </div>
 </div>
