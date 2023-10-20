@@ -12,6 +12,7 @@ import { ArtistsComponent } from './components/screens/artists/artists.component
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ArtistComponent } from './components/screens/artists/artist/artist.component';
 import { ArtistDetailComponent } from './components/screens/artists/artist-detail/artist-detail.component';
+import { ContactComponent } from './components/screens/contact/contact.component';
 // import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
@@ -24,7 +25,8 @@ import { ArtistDetailComponent } from './components/screens/artists/artist-detai
     HomeComponent,
     ArtistsComponent,
     ArtistComponent,
-    ArtistDetailComponent
+    ArtistDetailComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
